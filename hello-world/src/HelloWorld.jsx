@@ -1,3 +1,5 @@
 export default function HelloWorld() {
-  return <h1>Hello World</h1>;
+  let helloWorld = <h1>Hello World</h1>;
+  console.log(helloWorld);
+  return helloWorld;
 }
